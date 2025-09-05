@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(#cad2c5, #84a98c);
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+    height: 1000px;
+}
+
+.tituloUno{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    margin: 40px;
+} 
+
+.tituloDos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.boton{
+    height: 80px;
+    width: 210px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.total{
+    font-size: 25px;
+    margin-left: 800px;
+    margin-right: 800px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
