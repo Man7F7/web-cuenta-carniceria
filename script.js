@@ -14,6 +14,7 @@ const pepino = document.getElementById("pepino");
 const hueso = document.getElementById("hueso");
 const costilla = document.getElementById("costilla");
 const espinazo = document.getElementById("espinazo");
+const molida = document.getElementById("molida");
 
 //Boton borrar
 borrar.addEventListener('click', ()=>{
@@ -84,4 +85,11 @@ espinazo.addEventListener('click', ()=>{
     espinazo.textContent = "Espinazo de cerdo"
     productosAg.appendChild(espinazo)
     suma.push(5000)
+});
+
+molida.addEventListener('click', ()=>{
+    let molida = document.createElement("p")
+    molida.textContent = "Carne molida"
+    productosAg.appendChild(molida)
+    suma.push(9000)
 });
