@@ -3,7 +3,14 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     text-align: center;
-    height: 1000px;
+    height: 911px;
+    width: 1fr;
+}
+
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
 }
 
 .tituloUno{
@@ -18,25 +25,40 @@ body{
 }
 
 .boton{
-    height: 80px;
+    height: 60px;
     width: 210px;
-    margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     border-radius: 20px;
+}
+
+.botonDos{
+    height: 60px;
+    width: 210px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 .total{
     font-size: 25px;
-    margin-left: 800px;
-    margin-right: 800px;
     border: 2px solid black;
     border-radius: 20px;
 }
 
-p {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
+.div{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
 }
 
+.divDos{
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}

@@ -2,6 +2,7 @@
 const productosAg = document.getElementById("productosAgregados");
 const total = document.getElementById("pagoTotal");
 const botones = document.getElementById("botones");
+const borrar = document.getElementById("borrar")
 let suma = []
 
 // Productos
@@ -14,12 +15,18 @@ const hueso = document.getElementById("hueso");
 const costilla = document.getElementById("costilla");
 const espinazo = document.getElementById("espinazo");
 
+//Boton borrar
+borrar.addEventListener('click', ()=>{
+    if(productosAg.lastChild){
+    productosAg.lastChild.remove();
+    suma.pop()
+    }
+});
+
 //Boton resultado final
 botones.addEventListener('click',() =>{
-    let valores = suma.reduce(function (acumulado,valorActual){
-        return acumulado + valorActual
-    },0);
-    total.textContent = `Total: $${valores.toLocaleString("es-ES")}`
+    let valores = suma.reduce((acumulado,valorActual)=>acumulado + valorActual,0);
+    total.innerHTML = `Total: $${valores.toLocaleString("es-ES")}`
 });
 
 //Botones productos
