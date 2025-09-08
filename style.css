@@ -3,8 +3,6 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     text-align: center;
-    height: 911px;
-    width: auto;
 }
 
 p {
@@ -61,4 +59,41 @@ p {
     justify-content: center;
     align-items: start;
     gap: 20px;
+}
+
+@media(max-width: 400px){
+    p{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .tituloUno{
+        font-size: 30px;
+        margin: 20px
+    }
+
+    .tituloDos{
+        font-size: 10px;
+        margin: 30px;
+    }
+    .boton{
+        height:50px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .botonDos{
+        height: 50px;
+        width: 100px;
+        margin: 10px;
+        font-size: 10px;
+    }
+    .total{
+        font-size: 15px;
+    }
+    .div{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .divDos{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
 }
