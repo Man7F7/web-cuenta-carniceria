@@ -102,3 +102,42 @@ p {
         gap: 30px;
     }
 }
+
+@media(max-width: 300px){
+    p{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .tituloUno{
+        font-size: 30px;
+        margin: 20px
+    }
+
+    .tituloDos{
+        font-size: 20px;
+        margin: 30px;
+    }
+    .boton{
+        height:70px;
+        width: 120px;
+        font-size: 15px;
+    }
+    .botonDos{
+        height: 60px;
+        width: 120px;
+        margin: 30px;
+        font-size: 15px;
+    }
+    .total{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .div{
+        grid-template-columns: repeat(2,120px);
+        gap: 30px;
+    }
+    .divDos{
+        grid-template-columns: repeat(2,100px);
+        gap: 30px;
+    }
+}
