@@ -4,7 +4,7 @@ body{
     background-size:cover;
     text-align: center;
     width: auto;
-    height: auto;
+    height: 911px;
 }
 
 p {
@@ -92,6 +92,7 @@ p {
     .total{
         font-size: 15px;
         margin-bottom: 50px;
+        padding: 15px;
     }
     .div{
         grid-template-columns: repeat(2,120px);
