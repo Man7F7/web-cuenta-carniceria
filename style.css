@@ -116,7 +116,7 @@ option{
     margin: 1rem;
 }
 
-@media (max-width:390px){
+@media (max-width: 767px){
     .tableta{
     border: solid 2px rgba(255, 255, 255, 0.06);
     border-radius: 1rem;
