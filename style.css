@@ -115,3 +115,89 @@ option{
     border-radius: 0.6rem;
     margin: 1rem;
 }
+
+@media (max-width:390px){
+    .tableta{
+    border: solid 2px rgba(255, 255, 255, 0.06);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+    }
+    .paletas{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap:2rem;
+    }
+    .titulo{
+    font-size: 1rem;
+    margin-bottom: 0;
+    }
+    .parrafos{
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-align: right;
+}
+.parrafosDos{
+    font-size: 1rem;
+    margin-right: 0.1rem;
+    text-align: right;
+}
+.productos{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.572);
+    margin: 0.5rem auto;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.6rem;
+    background: none;
+    border: solid 2px rgba(255, 255, 255, 0.06)
+}
+.cantidad{
+    font-size: 1rem;
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 17rem;
+    border-radius: 0.6rem;
+    background: none;
+    border: solid 2px rgba(255, 255, 255, 0.06);
+}
+.botones{
+    border: none;
+    margin: 1rem;
+    padding: 0.9rem;
+    width:6rem ;
+    border-radius: 0.6rem;
+    font-size: 0.8rem;
+    color: white;
+    background: #d46211;
+}
+.total{
+    background: #d462113c;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.1rem;
+    border-radius: 0.6rem;
+    margin-left: 5rem;
+}
+.precioT{
+    margin-bottom: 3px;
+    font-size: 1rem;
+}
+.precio{
+    margin-top: 0px;
+    color: #d46211;
+    font-size: 1rem;
+}
+.productoag{
+    font-size: 1rem;
+    margin: 1rem;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    padding: 5px;
+}
+}
