@@ -1,144 +1,117 @@
 body{
-    background: linear-gradient(#63a9f8, #84a98c);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-color:#221810;
+    color: white;
+}
+hr{
+    border: solid, 1px, rgba(255, 255, 255, 0.06);
+}
+
+header{
+    font-size: 0.8rem;
+    margin: 1.5rem;
+    
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.tableta{
+    border: solid 2px rgba(255, 255, 255, 0.06);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 5rem;
     text-align: center;
-    width: auto;
-    height: 911px;
 }
-
-p {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
+.titulo{
+    font-size: 2.5rem;
+    margin-bottom: 0;
 }
-
-.tituloUno{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    margin: 40px;
-} 
-
-.tituloDos {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+.parrafos{
+    font-size: 1.2rem;
+    margin-right: 22rem;
+    text-align: right;
 }
-
-.boton{
-    height: 60px;
-    width: 210px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
+.parrafosDos{
+    font-size: 1.2rem;
+    margin-right: 20rem;
+    text-align: right;
 }
-
-.botonDos{
-    height: 60px;
-    width: 210px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    border-radius: 20px;
-    margin: 30px;
+.productos{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.572);
+    margin: 0.5rem auto;
+    padding: 1rem;
+    width: 27rem;
+    border-radius: 0.6rem;
+    background: none;
+    border: solid 2px rgba(255, 255, 255, 0.06)
 }
-
+option{
+    color: black;
+}
+.cantidad{
+    font-size: 1rem;
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 25rem;
+    border-radius: 0.6rem;
+    background: none;
+    border: solid 2px rgba(255, 255, 255, 0.06);
+}
+.botones{
+    border: none;
+    margin: 1rem;
+    padding: 0.9rem;
+    width:12.8rem ;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    background: #d46211;
+}
+.otros{
+    margin-bottom: 3rem;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    text-align: center;
+}
 .total{
-    font-size: 25px;
-    border: 2px solid black;
-    border-radius: 20px;
+    background: #d462113c;
+    margin-left: 1.5rem;
+    width: 27rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.1rem;
+    border-radius: 0.6rem;
 }
-
-.div{
+.precio{
+    margin-top: 0px;
+    color: #d46211;
+}
+.precioT{
+    margin-bottom: 3px;
+}
+.paletas{
     display: grid;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(2, auto);
     justify-content: center;
-    align-items: start;
-    gap: 50px;
+    gap: 5rem;
+    
 }
-
-.divDos{
-    display: grid;
-    grid-template-columns: repeat(2, 250px);
-    justify-content: center;
-    align-items: start;
-    gap: 20px;
+.productoag{
+    font-size: 1.3rem;
+    margin: 1.5rem;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    padding: 5px;
 }
-
-
-@media(max-width: 450px){
-    p{
-        font-size: 10px;
-        margin: 5px;
-    }
-    .tituloUno{
-        font-size: 30px;
-        margin: 20px
-    }
-
-    .tituloDos{
-        font-size: 20px;
-        margin: 30px;
-    }
-    .boton{
-        height:70px;
-        width: 120px;
-        font-size: 15px;
-    }
-    .botonDos{
-        height: 60px;
-        width: 120px;
-        margin: 30px;
-        font-size: 15px;
-    }
-    .total{
-        font-size: 15px;
-        margin-bottom: 50px;
-        padding: 15px;
-    }
-    .div{
-        grid-template-columns: repeat(2,120px);
-        gap: 30px;
-    }
-    .divDos{
-        grid-template-columns: repeat(2,100px);
-        gap: 30px;
-    }
-}
-
-@media(max-width: 300px){
-    p{
-        font-size: 10px;
-        margin: 5px;
-    }
-    .tituloUno{
-        font-size: 30px;
-        margin: 20px
-    }
-
-    .tituloDos{
-        font-size: 20px;
-        margin: 30px;
-    }
-    .boton{
-        height:70px;
-        width: 120px;
-        font-size: 15px;
-    }
-    .botonDos{
-        height: 60px;
-        width: 120px;
-        margin: 30px;
-        font-size: 15px;
-    }
-    .total{
-        font-size: 15px;
-        margin-bottom: 50px;
-    }
-    .div{
-        grid-template-columns: repeat(2,120px);
-        gap: 30px;
-    }
-    .divDos{
-        grid-template-columns: repeat(2,100px);
-        gap: 30px;
-    }
+#productosAg{
+    background: #e5dfdb10;
+    width: auto;
+    padding: 0.1rem;
+    border-radius: 0.6rem;
+    margin: 1rem;
 }

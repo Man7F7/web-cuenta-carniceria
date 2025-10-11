@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<h1 class="tituloUno">Contabilidad carne</h1>
-<h3 class="tituloDos">Ingrese los productos:</h3>
+    <header>
+    <h1>Cuenta de carne</h1>
+    </header>
+    <hr>
+<div class="paletas">
+    <div class="tableta">
+    <form>
+        <h1 class="titulo">Calculadora de ventas</h1>
+        <p class="otros">Ingresa los productos</p>
+        <label for="productos" class="parrafos"> Producto</label>
+        <select name="productos" id="productos" class="productos">
+            <option value="">Selecciona un producto</option>
+            <option value="lomo">Lomo de res/cerdo</option>
+            <option value="espaldilla">Espaldilla</option>
+            <option value="bola">Bola de res</option>
+            <option value="cadera">Cadera de res</option>
+            <option value="pepino">Pepino de res</option>
+            <option value="hueso">Hueso cogote</option>
+            <option value="costilla">Costilla de res/cerdo</option>
+            <option value="espinazo">Espinazo de cerdo</option>
+            <option value="molida">Carne molida</option>
+        </select>
+        <label class="parrafosDos" for="cantidad">Cantidad (lb)</label>
+        <input id="cantidad" class="cantidad" name="cantidad" type="number" placeholder="Ej:10">
+    </form>
+    <div class="total">
+    <h1 class="precioT">Precio total</h1>
+    <h1 id="totalFinal" class="precio" >$0</h1>
+    </div>
+    <div>
+    <button id="botonCa" class="botones">Calcular</button>
+    <button id="botonAg" class="botones">Agregar</button>
+    </div>
+    </div>
+    <div class="tableta">
+        <h1 class="titulo">Productos ingresados</h1>
+        <div id="productosAg">
+        </div>
+    </div>
 
-<div class="div">
-  <button id="lomo" class="boton">Lomo de res/cerdo</button>
-  <button id="espaldilla" class="boton">Espaldilla</button>
-  <button id="bola" class="boton">Bola negra</button>
-  <button id="cadera" class="boton">Cadera</button>
-  <button id="pepino" class="boton">Pepino</button>
-  <button id="hueso" class="boton">Hueso cogote</button>
-  <button id="costilla" class="boton">Costilla res/cerdo</button>
-  <button id="espinazo" class="boton">Espinazo</button>
-  <button id="molida" class="boton">Carne molida</button>
-</div>
-
-
-<div>
-<button id="botones" class="botonDos">Resultado</button>
-<button id="borrar" class="botonDos">Borrar</button>
-</div>
-
-<div class="divDos">
-<p class="total" id="pagoTotal">Total: </p>
-<div id="productosAgregados"></div>
 </div>
 
 <script src="script.js"></script>
