@@ -5,15 +5,15 @@ const cantidad = document.getElementById('cantidad');
 const productosAg = document.getElementById('productosAg');
 const totalFinal = document.getElementById('totalFinal');
 const producto = {
-    Lomo: 10000,
-    Espaldilla: 9000,
-    Bola: 10000,
-    Cadera: 9000,
-    Pepino: 9000,
-    Hueso: 5000,
-    Costilla: 9000,
-    Espinazo: 5000,
-    Molida: 9000
+    lomo: 10000,
+    espaldilla: 9000,
+    bola: 10000,
+    cadera: 9000,
+    pepino: 9000,
+    hueso: 5000,
+    costilla: 9000,
+    espinazo: 5000,
+    molida: 9000
 };
 // Array para guardar los productos agregados
 const listaProductos = [];
