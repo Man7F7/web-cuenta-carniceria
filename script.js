@@ -36,7 +36,7 @@ botonAg.addEventListener('click', () => {
   // Agregamos el producto a la lista
   const item = document.createElement('p');
   item.classList.add('productoag')
-  item.textContent = `${prodSeleccionado} (${cant} lb): $${total.toLocaleString()}`;
+  item.textContent = `${prodSeleccionado.toUpperCase()} (${cant} lb): $${total.toLocaleString()}`;
   productosAg.appendChild(item);
 
   // Limpia el input cantidad
