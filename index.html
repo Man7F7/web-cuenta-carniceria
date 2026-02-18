@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuenta carne</title>
+    <script type="module" src="./js/main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
         <p class="otros">Ingresa los productos</p>
         <label for="productos" class="parrafos"> Producto</label>
         <select name="productos" id="productos" class="productos">
-            <option value="">Selecciona un producto</option>
+            <option value=" ">Selecciona un producto</option>
             <option value="lomo">Lomo de res/cerdo</option>
             <option value="espaldilla">Espaldilla</option>
             <option value="bola">Bola de res</option>
@@ -28,27 +29,29 @@
             <option value="costilla">Costilla de res/cerdo</option>
             <option value="espinazo">Espinazo de cerdo</option>
             <option value="molida">Carne molida</option>
+            <option value="falda">Falda</option>
+            <option value="panceta">Panceta</option>
+            <option value="manitasDeCerdo">Manitas de cerdo</option>
         </select>
         <label class="parrafosDos" for="cantidad">Cantidad (lb)</label>
         <input id="cantidad" class="cantidad" name="cantidad" type="number" placeholder="Ej:10">
     </form>
     <div class="total">
     <h1 class="precioT">Precio total</h1>
-    <h1 id="totalFinal" class="precio" >$0</h1>
+    <h1 class="precio totalFinal" >$0</h1>
     </div>
     <div>
-    <button id="botonCa" class="botones">Calcular</button>
-    <button id="botonAg" class="botones">Agregar</button>
+    <button id="botonCa" class="botones botonCa">Calcular</button>
+    <button class="botones botonAg">Agregar</button>
     </div>
     </div>
     <div class="tableta">
         <h1 class="titulo">Productos ingresados</h1>
-        <div id="productosAg">
-        </div>
+        <div class="productosAg"></div>
     </div>
 
 </div>
 
-<script src="script.js"></script>
+
 </body>
 </html>
