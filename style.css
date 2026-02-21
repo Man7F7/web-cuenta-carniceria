@@ -7,10 +7,34 @@ hr{
 }
 
 header{
+    display: grid;
+    grid-template-columns:15rem 15rem 15rem;
+    text-align: center;
+    align-items: center;
     font-size: 0.8rem;
     margin: 1.5rem;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+    }
     
 }
+.tituloPrecio{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.botonesPrecio{
+    border: none;
+    margin: 1rem;
+    padding: 0.9rem;
+    width:12.8rem ;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    background: #d46211;
+}
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -23,7 +47,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 1rem;
     width: 30rem;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: center;
 }
 .titulo{
@@ -123,7 +147,6 @@ option{
     padding: 1rem;
     width: 20rem;
     margin: 0 auto;
-    margin-top: 5rem;
     text-align: center;
     }
     .paletas{
@@ -199,5 +222,19 @@ option{
     margin: 1rem;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
     padding: 5px;
+}
+.botonesPrecio{
+    border: none;
+    margin: 1rem;
+    padding: 0.9rem;
+    width: 9rem;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    background: #d46211;
+}
+header{
+    display:grid;
+    grid-template-columns: 7rem 10rem 7rem;
 }
 }
