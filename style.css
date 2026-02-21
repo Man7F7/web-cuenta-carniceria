@@ -234,7 +234,7 @@ option{
 }
 header{
     display:grid;
-    grid-template-columns: 7rem 7rem 7rem;
-    gap: 1rem;
+    grid-template-columns: repeat(3, 5rem);
+    gap: 3rem;
 }
 }
