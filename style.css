@@ -225,9 +225,8 @@ option{
 }
 .botonesPrecio{
     border: none;
-    margin: 1rem;
-    padding: 0.9rem;
-    width: 9rem;
+    padding: 0.8rem;
+    width: 7rem;
     border-radius: 0.6rem;
     font-size: 1rem;
     color: white;
@@ -235,6 +234,7 @@ option{
 }
 header{
     display:grid;
-    grid-template-columns: 7rem 10rem 7rem;
+    grid-template-columns: 7rem 7rem 7rem;
+    gap: 1rem;
 }
 }
