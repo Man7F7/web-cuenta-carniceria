@@ -33,6 +33,10 @@ header{
     font-size: 1rem;
     color: white;
     background: #d46211;
+    transition: 0.5s;
+}
+.botonesPrecio:hover,.botonesPrecio:target{
+    background: #d4621184;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -96,7 +100,13 @@ option{
     font-size: 1rem;
     color: white;
     background: #d46211;
+    transition: 0.5s;
 }
+.botones:hover,.botones:target{
+        transform: scale(1.1);
+        background: #d4621184;
+    }
+
 .otros{
     margin-bottom: 3rem;
     color:rgba(255, 255, 255, 0.5);
