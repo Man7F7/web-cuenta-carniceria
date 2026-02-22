@@ -232,6 +232,9 @@ option{
     color: white;
     background: #d46211;
 }
+.tituloPrecio{
+    font-size: 2rem;
+}
 header{
     display:grid;
     grid-template-columns: repeat(3, 5rem);
