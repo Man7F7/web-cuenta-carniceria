@@ -225,16 +225,16 @@ option{
 }
 .botonesPrecio{
     border: none;
-    padding: 0.8rem;
-    width: 7rem;
+    height: 4.5rem;
+    width: 6rem;
     border-radius: 0.6rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
     background: #d46211;
 }
 header{
     display:grid;
     grid-template-columns: repeat(3, 5rem);
-    gap: 3rem;
+    gap: 1.5rem;
 }
 }
